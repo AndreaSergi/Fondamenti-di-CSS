@@ -44,7 +44,7 @@ body {
   }
   
   .link3 a {
-    color: revert;
-    padding: revert;
+    color: unset;
+    padding: unset;
   }
   
