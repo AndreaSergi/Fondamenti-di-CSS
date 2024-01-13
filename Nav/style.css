@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
 }
 
 nav {
@@ -13,6 +14,7 @@ nav {
     padding: 0px 20px;
     color: white;
     border-bottom: 2px solid white;
+    
 }
 
 .gap {
@@ -23,11 +25,13 @@ nav {
 a {
     text-decoration: none;
     color: white;
+    font-size: 16px;
 }
 
 nav a:first-child{
     filter: opacity(100%);
     margin-right: 18px;
+    font-size: 18px;
 }
 nav a:nth-child(2){
     filter: opacity(80%);
@@ -44,6 +48,8 @@ select {
     margin-right: 10px;
     border: unset;
     background-color: inherit;
+    font-size: 16px;
+    
 }
 
 nav a:last-child{
@@ -59,6 +65,7 @@ input {
     color: rgb(197, 197, 197);
     font-weight: bold;
     margin-right: 10px;
+    font-size: 13px;
     
 
 }
