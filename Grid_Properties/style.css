@@ -1,0 +1,64 @@
+body {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  width: 60em;
+  margin: 0 auto;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+#green {
+  order: 1;
+  background-color: #8ffda7;
+  grid-column: span 3; 
+}
+
+#orange {
+  order: 5;
+  background-color: #ffc788;
+  grid-column: span 2; 
+}
+
+#yellow {
+  order: 2;
+  background-color: #ffff92;
+}
+#yellow ul {
+  
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+
+#red {
+  order: 3;
+  background-color: #ff919c;
+}
+
+#red ul {
+  
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+#red p{
+  grid-column: span 2;
+}
+
+#blue {
+  order: 4;
+  background-color: #98d2ff;
+  grid-row: span 2;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
