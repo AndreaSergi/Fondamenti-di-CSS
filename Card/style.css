@@ -1,0 +1,44 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 26px;
+            width: 450px;
+            border-radius: 1%;
+            border: 1px solid rgb(222, 222, 222);
+            overflow: hidden;
+        }
+        .img-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 285px;
+            color: white;
+            background-color: rgb(134, 142, 150);
+        }
+    
+        .card-desc{
+            line-height: 38px;
+            border-bottom: 1px solid rgb(222, 222, 222);
+            padding: 13px 25px
+        }
+
+        h3{
+            margin: 10px 0px
+        }
+        .links-section{
+            padding: 15px 25px;
+            margin: 13px 0px 12px;
+            
+        }
+
+        a{
+            margin-right: 24px;
+            color: rgb(0, 110, 255);
+        }
