@@ -3,42 +3,130 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+
         }
 
-        .card {
-            margin: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 26px;
-            width: 450px;
-            border-radius: 1%;
-            border: 1px solid rgb(222, 222, 222);
-            overflow: hidden;
-        }
-        .img-section {
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 285px;
-            color: white;
-            background-color: rgb(134, 142, 150);
-        }
-    
-        .card-desc{
-            line-height: 38px;
-            border-bottom: 1px solid rgb(222, 222, 222);
-            padding: 13px 25px
-        }
-
-        h3{
-            margin: 10px 0px
-        }
-        .links-section{
-            padding: 15px 25px;
-            margin: 13px 0px 12px;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
             
         }
 
-        a{
-            margin-right: 24px;
-            color: rgb(0, 110, 255);
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 650px;
+            width: 430px;
+            font-size: 26px;
+            margin: 20px;
+            border-radius: 30px;
+            overflow: hidden;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid black;
+        }
+       
+        .card-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            height: 595px;
+            width: 365px;
+            font-size: 26px;
+            border-radius: 30px;
+            overflow: hidden;
+            border-radius: 25px;
+            background-color: rgb(0, 0, 0);
+
+        }
+
+        .top-logo {
+            width: 100%;
+            height: 80px;
+        }
+
+        img {
+            position: absolute;
+            height: 16%;
+        }
+
+        .top-logo img {
+            top: 8px;
+            left: 8px;
+        }
+
+        .main-section{
+            position: relative;
+            
+            height: 80%;
+        }
+
+        
+        .white-circle {
+            position: relative;
+            top: -40px;
+            left: -9px;
+            height: 120%;
+            width: 105%;
+            border-radius: 200% 50% 200% 50%;
+            transform: rotate(deg);
+            background-color: white;
+            z-index: 1;
+        }
+
+
+        .tab{
+            position: absolute;
+            display: inline-block;
+            height: 160px;
+            width: 105px;
+            border-radius: 12px;
+            border: 5px solid black;
+            
+            box-shadow: -10px 10px;
+        }
+
+        .yellow {
+            top: 35px;
+            right: 25px;
+            background-color: rgb(226, 226, 1);
+            z-index: 3;
+        }
+
+        .blue {
+            top: 90px;
+            right: 150px;
+            background-color: rgb(40, 40, 231);
+            z-index: 3;
+        }
+
+        .red {
+            top: 150px;
+            right: 100px;
+            background-color: rgb(196, 8, 8);
+            z-index: 4;
+        }
+
+        .green {
+            bottom: 50px;
+            left: 40px;
+            background-color: rgb(60, 182, 60);
+            z-index: 2;
+        }
+
+
+        .bot-logo {
+            width: 100%;
+            height: 80px;
+        }
+
+        .bot-logo img {
+            
+            right: 8px;
+            bottom: 8px;
+            transform: rotate(180deg);
+            z-index: 0;
         }
